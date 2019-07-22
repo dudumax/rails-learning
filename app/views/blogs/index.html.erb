@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+ <div class="row">
+      <div class="col-xs-12 col-md-6 blog-panel">
+    <% @blogs.each do |blog| %>
+     <p><%= blog.instagram %>
+        <%= blog.content %>
+        <%= link_to 'Show', blog, class: 'btn btn-default' %>
+        <%= link_to 'Edit', edit_blog_path(blog), class: 'btn btn-info' %>
+        <%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' },class: 'btn btn-danger' %></p>
+    <% end %>
+<hr />
+</div>
+      </div>
+<br>
+
+<%= link_to 'New Blog', new_blog_path %>
