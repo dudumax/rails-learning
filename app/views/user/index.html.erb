@@ -1,0 +1,10 @@
+<h1>Our Blog</h1>
+<% @users.each do |user| %>
+  <h2><%= user.name %></h2>
+  <p><%= user.details %></p>
+  <hr />
+
+<% end %>
+
+
+<p><%= "Add a new post", new_user_path %></p>
