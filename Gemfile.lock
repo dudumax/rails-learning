@@ -103,6 +103,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.17.0)
     nio4r (2.4.0)
+    nokogiri (1.13.6)
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -112,6 +113,7 @@ GEM
     puma (4.3.12)
       nio4r (~> 2.0)
     puma (3.12.1)
+    racc (1.6.0)
     racc (1.6.1)
     rack (2.0.7)
     rack (2.2.3)
@@ -219,4 +221,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.17.3
+   2.0
